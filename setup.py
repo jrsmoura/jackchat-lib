@@ -18,7 +18,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "jack-chat=rag_azure.cli:main"
+            "jackchat=rag_azure.cli:main"
         ]
     },
 )
