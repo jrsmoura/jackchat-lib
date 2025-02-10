@@ -4,7 +4,7 @@ setup(
     name="jackchat",
     version="0.1.0",
     description="A package for RAG-based chatbots using Azure AI Search and OpenAI.",
-    author="Your Name",
+    author="JRSteiner",
     author_email="jrsteiner78@gmail.com",
     packages=find_packages(where="src"),
     package_dir={"": "src"},

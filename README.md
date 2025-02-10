@@ -1,8 +1,6 @@
-# README.md
+# Jack Chat
 
-# RAG Azure
-
-RAG Azure is a Python package for building **Retrieval-Augmented Generation (RAG) chatbots** powered by **Azure AI Search** and **Azure OpenAI**. This package allows users to integrate document-based retrieval with large language models to provide context-aware responses.
+Jack Chat is a Python package for building **Retrieval-Augmented Generation (RAG) chatbots** powered by **Azure AI Search** and **Azure OpenAI**. This package allows users to integrate document-based retrieval with large language models to provide context-aware responses.
 
 ## Features
 - Seamless integration with **Azure AI Search** for document retrieval.
