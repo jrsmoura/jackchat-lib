@@ -19,4 +19,4 @@ dependencies = [
 ]
 
 [project.scripts]
-rag-azure = "jack-chat.cli:main"
+rag-azure = "jackchat.cli:main"
