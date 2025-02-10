@@ -2,7 +2,7 @@
 Unit tests for the readers module.
 """
 import unittest
-from ..rag_azure.readers import load_documents
+from src import load_documents
 
 class TestReaders(unittest.TestCase):
     def test_load_documents(self):

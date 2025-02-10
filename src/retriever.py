@@ -1,16 +1,11 @@
 """
 Module responsible for document retrieval using Azure AI Search.
 """
-from azure.search.documents.indexes.models import (
-    SearchableField, SearchField, SearchFieldDataType, SimpleField
-)
-from .readers import load_documents
-from .models import EMBEDDINGS
-from .config import Config
 from langchain_community.retrievers import AzureAISearchRetriever
 from langchain_community.vectorstores.azuresearch import AzureSearch
-from langchain_text_splitters import TokenTextSplitter
-from time import sleep
+
+from .config import Config
+from .models import EMBEDDINGS
 
 embedding_function = EMBEDDINGS.embed_query
 

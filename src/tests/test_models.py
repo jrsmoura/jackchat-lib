@@ -2,7 +2,7 @@
 Unit tests for the models module.
 """
 import unittest
-from ..rag_azure.models import LLM, EMBEDDINGS
+from src import LLM, EMBEDDINGS
 
 class TestModels(unittest.TestCase):
     def test_llm_instance(self):
