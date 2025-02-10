@@ -13,13 +13,13 @@ Jack Chat is a Python package for building **Retrieval-Augmented Generation (RAG
 To install the package, use:
 
 ```sh
-pip install git+https://github.com/jrsmoura/rag-azure.git
+pip install git+https://github.com:jrsmoura/jackchat-lib.git
 ```
 
 Alternatively, install from source:
 
 ```sh
-git clone https://github.com/your-repo/rag-azure.git
+git clone https://github.com:jrsmoura/jackchat-lib.git
 cd rag-azure
 pip install .
 ```
