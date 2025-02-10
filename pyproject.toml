@@ -3,11 +3,11 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "jackchat"
+name = "jack-chat"
 version = "0.1.0"
 description = "A package for RAG-based chatbots using Azure AI Search and OpenAI."
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "JRSteiner", email = "jrsteiner78@gmail.com"}
 ]
 dependencies = [
     "langchain-openai",
@@ -19,4 +19,4 @@ dependencies = [
 ]
 
 [project.scripts]
-rag-azure = "jackchat.cli:main"
+rag-azure = "jack-chat.cli:main"

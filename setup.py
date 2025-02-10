@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="jackchat",
+    name="jack-chat",
     version="0.1.0",
     description="A package for RAG-based chatbots using Azure AI Search and OpenAI.",
     author="Your Name",
-    author_email="your.email@example.com",
+    author_email="jrsteiner78@gmail.com",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     install_requires=[
@@ -18,7 +18,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "rag-azure=rag_azure.cli:main"
+            "jack-chat=rag_azure.cli:main"
         ]
     },
 )
